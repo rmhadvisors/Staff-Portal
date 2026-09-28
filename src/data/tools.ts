@@ -96,7 +96,7 @@ export const categoryAccent = (id: ToolCategoryId) =>
 export const tools: Tool[] = [
   { id: "gst-2a2b", name: "2A / 2B Analysis", category: "gst", description: "Reconcile 2A & 2B against books and tax ledgers.", icon: GitCompareArrows, shortcut: "G A", status: "soon" },
   { id: "gst-reco", name: "Collection & GST Reconciliation", category: "gst", description: "Builder Collection & GST Processor", icon: RefreshCcw, shortcut: "G R", status: "soon" },
-  { id: "gst-2breco", name: "GSTR2B vs Books", category: "gst", description: "Match GSTR-2B against your purchase register, invoice by invoice.", icon: FileDiff, shortcut: "G B", status: "live", url: "gst-rvs2-b-frontend.vercel.app" },
+  { id: "gst-2breco", name: "GSTR2B vs Books", category: "gst", description: "Match GSTR-2B against your purchase register, invoice by invoice.", icon: FileDiff, shortcut: "G B", status: "live", url: "https://gst-rvs2-b-frontend.vercel.app" },
   { id: "gst-xml", name: "Trial Balance Converter", category: "gst", extraCategories: ["income-tax"], description: "Convert a Tally trial balance into CA-format P&L, Balance Sheet & schedules.", icon: FileCode2, status: "live", url: "https://trial-balance-converter.vercel.app/" },
   { id: "gst-risk", name: "GST Risk Analyzer", category: "gst", description: "AI risk identification section-wise.", icon: ShieldAlert, status: "soon" },
   { id: "gst-rcm", name: "RCM Entry Projection", category: "gst", description: "Project RCM entries from expense nature.", icon: ReceiptText, status: "soon" },
