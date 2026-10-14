@@ -106,7 +106,7 @@ export const tools: Tool[] = [
   { id: "acc-cc", name: "Credit Card Analyzer", category: "accounts", description: "Statement to import format conversion.", icon: CreditCard, status: "soon" },
   { id: "acc-salesocr", name: "Sales OCR Recording", category: "accounts", description: "OCR-based sales invoice recording.", icon: ScanText, status: "soon" },
   { id: "acc-ledger", name: "Ledger Scrutiny", category: "accounts", description: "Automated ledger scrutiny & flags.", icon: BookOpenCheck, status: "live", url: "https://ledger-scrutiny-tools.vercel.app/" },
-  { id: "acc-turnover", name: "Turnover Analysis", category: "accounts", description: "MoM, GP ratio, debtor-creditor scrutiny.", icon: TrendingUp, status: "soon" },
+  { id: "acc-turnover", name: "Turnover Analysis", category: "accounts", description: "MoM, GP ratio, debtor-creditor scrutiny.", icon: TrendingUp, status: "live", url: "https://turnover-analyses.vercel.app/" },
   { id: "acc-2a2b", name: "2A–2B Conversion", category: "accounts", description: "Convert GSTR-2A / 2B into Tally-ready purchase import sheets.", icon: ArrowLeftRight, status: "soon" },
   { id: "it-ais", name: "AIS Data Extraction", category: "income-tax", description: "Extract AIS data incl. capital gains.", icon: DatabaseZap, status: "soon" },
   { id: "it-advtax", name: "Advance Tax Working", category: "income-tax", description: "Compute advance tax from prior data.", icon: Calculator, status: "soon" },
