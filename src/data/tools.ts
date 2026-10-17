@@ -94,7 +94,7 @@ export const categoryAccent = (id: ToolCategoryId) =>
   categories.find((c) => c.id === id)?.accent ?? "#2563EB";
 
 export const tools: Tool[] = [
-  { id: "gst-2a2b", name: "2A / 2B Analysis", category: "gst", description: "Reconcile 2A & 2B against books and tax ledgers.", icon: GitCompareArrows, shortcut: "G A", status: "soon" },
+  { id: "gst-2a2b", name: "2A / 2B Analysis", category: "gst", description: "Reconcile 2A & 2B against books and tax ledgers.", icon: GitCompareArrows, shortcut: "G A", status: "live", url: "https://2a-2b-conversion.vercel.app/" },
   { id: "gst-reco", name: "GST Collection and Workbook", category: "gst", description: "Builder Collection & GST Processor", icon: RefreshCcw, shortcut: "G R", status: "live", url: "https://gst-collection.onrender.com" },
   { id: "gst-2breco", name: "GSTR2B vs Books", category: "gst", description: "Match GSTR-2B against your purchase register, invoice by invoice.", icon: FileDiff, shortcut: "G B", status: "live", url: "https://gst-rvs2-b-frontend.vercel.app" },
   { id: "gst-xml", name: "Trial Balance Converter", category: "gst", extraCategories: ["income-tax"], description: "Convert a Tally trial balance into CA-format P&L, Balance Sheet & schedules.", icon: FileCode2, status: "live", url: "https://trial-balance-converter.vercel.app/" },
@@ -116,7 +116,7 @@ export const tools: Tool[] = [
   { id: "it-bankanalyser", name: "ITR Bank Statement Analyzer", category: "income-tax", description: "Income-tax-focused bank statement analysis for ITR & scrutiny working papers.", icon: FileBarChart, status: "live", badge: "PRO", url: "https://itr-bank-statement-analyzer.vercel.app/" },
   { id: "tds-working", name: "TDS Working", category: "tds", description: "Payment register & TDS working format.", icon: FileBarChart, status: "soon" },
   { id: "tds-pan", name: "PAN Inoperative Check", category: "tds", description: "Bulk PAN operative status check.", icon: UserCheck, status: "soon" },
-  { id: "tds-mom", name: "Monthly TDS Comparison", category: "tds", description: "Month-on-month cross-check & differences.", icon: CalendarClock, status: "soon" },
+  { id: "tds-mom", name: "Monthly TDS Comparison", category: "tds", description: "Month-on-month cross-check & differences.", icon: CalendarClock, status: "live", url: "https://tds-frontend-mu.vercel.app/" },
   { id: "tds-audit", name: "TDS Audit Summary", category: "tds", description: "TDS audit working & summary report.", icon: ClipboardCheck, status: "soon" },
   { id: "aud-report", name: "Audit Report Generator", category: "audit", description: "Visit & in-house audit report formats.", icon: FileCheck2, status: "soon" },
   { id: "aud-cma", name: "CMA Report", category: "audit", description: "Generate CMA reports for clients.", icon: FileText, status: "soon" },
