@@ -21,7 +21,7 @@ function Index() {
   }, [user, navigate]);
   return (
     <div className="flex min-h-screen items-center justify-center bg-background">
-      <Logo size={56} floating />
+      <Logo size={120} floating />
     </div>
   );
 }

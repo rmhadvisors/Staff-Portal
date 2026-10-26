@@ -83,7 +83,7 @@ export function AppSidebar({
       className="sticky top-0 z-30 hidden h-screen shrink-0 flex-col border-r border-sidebar-border bg-sidebar/80 backdrop-blur-xl md:flex"
     >
       <div className="flex h-16 items-center justify-between px-4">
-        {collapsed ? <Logo size={34} /> : <LogoWord size={34} />}
+        {collapsed ? <Logo size={40} iconOnly /> : <LogoWord size={52} />}
       </div>
       <nav className="scrollbar-thin flex-1 space-y-1 overflow-y-auto px-3 py-2">
         {nav.map((item) => {

@@ -32,3 +32,6 @@ dist-ssr
 *.sw?
 
 .env
+
+# tracking api sqlite data
+tracking-api/data/

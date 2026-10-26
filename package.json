@@ -13,6 +13,8 @@
     "build:dev": "vite build --mode development",
     "preview": "node scripts/unified-preview.mjs",
     "lint": "eslint .",
+    "tracking:start": "node tracking-api/server.mjs",
+    "test:tracking": "node --test tracking-api/server.test.mjs",
     "format": "prettier --write ."
   },
   "dependencies": {
