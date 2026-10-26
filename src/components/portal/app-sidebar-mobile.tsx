@@ -35,7 +35,7 @@ export function AppSidebarMobile({ onNavigate }: { onNavigate: () => void }) {
   return (
     <div className="flex h-full flex-col">
       <div className="flex h-16 items-center px-4">
-        <LogoWord size={34} />
+        <LogoWord size={44} />
       </div>
       <nav className="flex-1 space-y-1 overflow-y-auto px-3 py-2">
         {nav.map((item) => {

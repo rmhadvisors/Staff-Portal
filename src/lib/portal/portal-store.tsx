@@ -7,6 +7,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { trackLaunch } from "@/lib/tracking";
 
 type Theme = "dark" | "light";
 
@@ -88,13 +89,17 @@ export function PortalProvider({ children }: { children: ReactNode }) {
 
   const isFavorite = useCallback((id: string) => favorites.includes(id), [favorites]);
 
-  const pushRecent = useCallback((id: string) => {
-    setRecent((prev) => {
-      const next = [id, ...prev.filter((x) => x !== id)].slice(0, 8);
-      localStorage.setItem("sap_recent", JSON.stringify(next));
-      return next;
-    });
-  }, []);
+  const pushRecent = useCallback(
+    (id: string) => {
+      trackLaunch(id, user);
+      setRecent((prev) => {
+        const next = [id, ...prev.filter((x) => x !== id)].slice(0, 8);
+        localStorage.setItem("sap_recent", JSON.stringify(next));
+        return next;
+      });
+    },
+    [user],
+  );
 
   const value = useMemo(
     () => ({ theme, toggleTheme, user, hydrated, login, logout, favorites, toggleFavorite, isFavorite, recent, pushRecent }),
