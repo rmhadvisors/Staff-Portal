@@ -111,7 +111,7 @@ export const tools: Tool[] = [
   { id: "it-ais", name: "AIS Data Extraction", category: "income-tax", description: "Extract AIS data incl. capital gains.", icon: DatabaseZap, status: "soon" },
   { id: "it-advtax", name: "Advance Tax Working", category: "income-tax", description: "Compute advance tax from prior data.", icon: Calculator, status: "soon" },
   { id: "it-itr", name: "ITR Computation", category: "income-tax", description: "Computation, ITR, P&L, balance sheet.", icon: FileCalc, status: "soon" },
-  { id: "it-26qb", name: "Form 26QB Scanner", category: "income-tax", description: "Scan agreements for buyer/seller details.", icon: ScanLine, status: "soon" },
+  { id: "it-26qb", name: "Form 26QB Scanner", category: "income-tax", description: "Scan agreements for buyer/seller details.", icon: ScanLine, status: "live", url: "https://houseagree-frontend.pages.dev/" },
   { id: "it-expense", name: "Expense Break-up Tool", category: "income-tax", description: "Break-up per audit report requirements.", icon: Receipt, status: "soon" },
   { id: "it-tdsconverter", name: "TDS Converter", category: "income-tax", description: "Convert Tally TDS data for filing.", icon: Calculator, status: "live", url: "https://tally-tds-calculator.vercel.app/" },
   { id: "it-bankanalyser", name: "ITR Bank Statement Analyzer", category: "income-tax", description: "Income-tax-focused bank statement analysis for ITR & scrutiny working papers.", icon: FileBarChart, status: "live", badge: "PRO", url: "https://itr-bank-statement-analyzer.vercel.app/" },
