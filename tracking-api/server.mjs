@@ -303,5 +303,5 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const port = Number(process.env.PORT ?? 8200);
   const db = openDb(process.env.DB_PATH ?? "./tracking-api/data/tracking.db");
   const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? "http://localhost:8080,http://localhost:5173").split(",").map((s) => s.trim());
-  createApp({ db, allowedOrigins }).listen(port, "0.0.0.0", () => console.log(`tracking-api on :${port}`));
+  createApp({ db, allowedOrigins }).listen(port, () => console.log(`tracking-api on :${port}`));
 }
