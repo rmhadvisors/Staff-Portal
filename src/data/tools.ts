@@ -103,8 +103,6 @@ export const tools: Tool[] = [
   { id: "gst-rate", name: "Rate-wise GST Summary", category: "gst", description: "Rate-wise bifurcation & detailed 2A report.", icon: PieChart, status: "wip" },
   { id: "acc-bankconv", name: "Bank Statement Converter", category: "accounts", description: "Convert statements to import-ready format.", icon: Landmark, status: "live", url: "https://bankstatement-converter-frontend.vercel.app/dashboard" },
   { id: "acc-bankanalyser", name: "Bank Statement Analyzer", category: "accounts", description: "Data-entry analysis with summary report.", icon: LineChart, status: "soon", badge: "BETA" },
-  { id: "acc-cc", name: "Credit Card Analyzer", category: "accounts", description: "Statement to import format conversion.", icon: CreditCard, status: "soon" },
-  { id: "acc-salesocr", name: "Sales OCR Recording", category: "accounts", description: "OCR-based sales invoice recording.", icon: ScanText, status: "soon" },
   { id: "acc-ledger", name: "Ledger Scrutiny", category: "accounts", description: "Automated ledger scrutiny & flags.", icon: BookOpenCheck, status: "live", url: "https://ledger-scrutiny-tools.vercel.app/" },
   { id: "acc-turnover", name: "Turnover Analysis", category: "accounts", description: "MoM, GP ratio, debtor-creditor scrutiny.", icon: TrendingUp, status: "live", url: "https://turnover-analyses.vercel.app/" },
   { id: "acc-2a2b", name: "2A–2B Conversion", category: "accounts", description: "Convert GSTR-2A / 2B into Tally-ready purchase import sheets.", icon: ArrowLeftRight, status: "live", url: "https://2a-2b-conversion.vercel.app/"},
