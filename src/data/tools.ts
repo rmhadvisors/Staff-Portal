@@ -94,7 +94,7 @@ export const categoryAccent = (id: ToolCategoryId) =>
   categories.find((c) => c.id === id)?.accent ?? "#2563EB";
 
 export const tools: Tool[] = [
-  { id: "gst-2a2b", name: "2A / 2B Analysis", category: "gst", description: "Reconcile 2A & 2B against books and tax ledgers.", icon: GitCompareArrows, shortcut: "G A", status: "live", url: "https://2a-2b-conversion.vercel.app/" },
+  { id: "gst-2a2b", name: "2A / 2B Analysis", category: "gst", description: "Reconcile 2A & 2B against books and tax ledgers.", icon: GitCompareArrows, shortcut: "G A", status: "soon" },
   { id: "gst-reco", name: "GST Collection and Workbook", category: "gst", description: "Builder Collection & GST Processor", icon: RefreshCcw, shortcut: "G R", status: "live", url: "https://gst-collection.onrender.com" },
   { id: "gst-2breco", name: "GSTR2B vs Books", category: "gst", description: "Match GSTR-2B against your purchase register, invoice by invoice.", icon: FileDiff, shortcut: "G B", status: "live", url: "https://gst-rvs2-b-frontend.vercel.app" },
   { id: "gst-xml", name: "Trial Balance Converter", category: "gst", extraCategories: ["income-tax"], description: "Convert a Tally trial balance into CA-format P&L, Balance Sheet & schedules.", icon: FileCode2, status: "live", url: "https://trial-balance-converter.vercel.app/" },
@@ -107,7 +107,7 @@ export const tools: Tool[] = [
   { id: "acc-salesocr", name: "Sales OCR Recording", category: "accounts", description: "OCR-based sales invoice recording.", icon: ScanText, status: "soon" },
   { id: "acc-ledger", name: "Ledger Scrutiny", category: "accounts", description: "Automated ledger scrutiny & flags.", icon: BookOpenCheck, status: "live", url: "https://ledger-scrutiny-tools.vercel.app/" },
   { id: "acc-turnover", name: "Turnover Analysis", category: "accounts", description: "MoM, GP ratio, debtor-creditor scrutiny.", icon: TrendingUp, status: "live", url: "https://turnover-analyses.vercel.app/" },
-  { id: "acc-2a2b", name: "2A–2B Conversion", category: "accounts", description: "Convert GSTR-2A / 2B into Tally-ready purchase import sheets.", icon: ArrowLeftRight, status: "soon" },
+  { id: "acc-2a2b", name: "2A–2B Conversion", category: "accounts", description: "Convert GSTR-2A / 2B into Tally-ready purchase import sheets.", icon: ArrowLeftRight, status: "live", url: "https://2a-2b-conversion.vercel.app/"},
   { id: "it-ais", name: "AIS Data Extraction", category: "income-tax", description: "Extract AIS data incl. capital gains.", icon: DatabaseZap, status: "soon" },
   { id: "it-advtax", name: "Advance Tax Working", category: "income-tax", description: "Compute advance tax from prior data.", icon: Calculator, status: "soon" },
   { id: "it-itr", name: "ITR Computation", category: "income-tax", description: "Computation, ITR, P&L, balance sheet.", icon: FileCalc, status: "soon" },
