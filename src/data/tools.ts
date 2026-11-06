@@ -101,7 +101,7 @@ export const tools: Tool[] = [
   { id: "gst-risk", name: "GST Risk Analyzer", category: "gst", description: "AI risk identification section-wise.", icon: ShieldAlert, status: "soon" },
   { id: "gst-rcm", name: "RCM Entry Projection", category: "gst", description: "Project RCM entries from expense nature.", icon: ReceiptText, status: "soon" },
   { id: "gst-rate", name: "Rate-wise GST Summary", category: "gst", description: "Rate-wise bifurcation & detailed 2A report.", icon: PieChart, status: "wip" },
-  { id: "acc-bankconv", name: "Bank Statement Converter", category: "accounts", description: "Convert statements to import-ready format.", icon: Landmark, status: "live", url: "https://bankstatement-converter-frontend.vercel.app/dashboard" },
+  { id: "acc-bankconv", name: "Document Converter", category: "accounts", description: "Convert documents to import-ready format.", icon: Landmark, status: "live", url: "https://bankstatement-converter-frontend.vercel.app/dashboard" },
   { id: "acc-bankanalyser", name: "Bank Statement Analyzer", category: "accounts", description: "Data-entry analysis with summary report.", icon: LineChart, status: "soon", badge: "BETA" },
   { id: "acc-ledger", name: "Ledger Scrutiny", category: "accounts", description: "Automated ledger scrutiny & flags.", icon: BookOpenCheck, status: "live", url: "https://ledger-scrutiny-tools.vercel.app/" },
   { id: "acc-turnover", name: "Turnover Analysis", category: "accounts", description: "MoM, GP ratio, debtor-creditor scrutiny.", icon: TrendingUp, status: "live", url: "https://turnover-analyses.vercel.app/" },
